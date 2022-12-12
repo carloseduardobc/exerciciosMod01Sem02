@@ -14,13 +14,9 @@ Realize o commit do exercício resolvido.
 
 var valor = parseInt(prompt('Informe o valor: '));
 
-if(isNaN(valor)){
-    alert('Número Inválido')
-} else{
-    for (i = 0; i <= 10; i++) {
+for (i = 0; i <= 10; i++) {
      alert(valor + ' x ' + i + " = " + valor * i);
-    }
-} 
+}
 // else { Exemplo Professora Thaís
 //     var resultado = '';
 //     for (i = 0; i <= 10; i++) {
