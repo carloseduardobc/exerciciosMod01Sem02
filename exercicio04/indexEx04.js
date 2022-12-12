@@ -4,14 +4,24 @@ quando digitado -1 pare de exibir o prompt e exiba através de um alert o result
 Realize o commit do exercício resolvido.
 */
 
-var contador = 0;
-var valor1 = parseInt(prompt('Digite um valor: '));
-var valor2 = parseInt(prompt('Digite outro valor: '));
-var soma;
+var soma = 0;
 
-while (contador >=-1) {
-  soma = valor1 + valor2;
-  contador--;
+while (valor !== -1) {
+    var valor = parseInt(prompt('Digite um valor: '));
+    soma += valor;
 }
 alert(soma);
 alert('Fim do cálculo');
+
+/*
+var soma = 0;
+do{
+    var numero = parseInt(prompt('Digite um número: '));
+    if(isNaN(numero) || numero === -1){
+        continue;
+    }
+    soma += numero;    
+} while (numero !== -1);
+
+alert(soma);
+*/
