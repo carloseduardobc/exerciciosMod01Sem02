@@ -13,7 +13,7 @@ while (valor !== -1) {
 alert(soma);
 alert('Fim do cálculo');
 
-/*
+/* Exemplo Professora Thaís
 var soma = 0;
 do{
     var numero = parseInt(prompt('Digite um número: '));
