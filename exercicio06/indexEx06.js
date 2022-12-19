@@ -7,8 +7,8 @@ Em seguida, realize o cálculo e exiba na tela um “alert” contendo o texto �
 */
 
 var calculo = prompt('Informe o cálculo que deseja fazer: “+”, “-”, “*” ou “/”');
-var numero1 = parseInt(prompt('Informe o primeiro valor: '));
-var numero2 = parseInt(prompt('Informe o segundo valor: '));
+var numero1 = parseFloat(prompt('Informe o primeiro valor: '));
+var numero2 = parseFloat(prompt('Informe o segundo valor: '));
 
 switch (calculo) {
     case '+':
@@ -32,5 +32,5 @@ switch (calculo) {
         alert('Fim do cálculo!');
         break;
     default:
-        console.log('Cálculo não realizado!');
+        alert('Cálculo não realizado!');
 }
